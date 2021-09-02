@@ -1,0 +1,22 @@
+.leagues-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 4rem;
+    
+}
+
+@media only screen and  (max-width: 1000px) {
+    .leagues-container{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }}
+
+.home-bg-image{
+    background-image: url("https://wallpaperaccess.com/full/1337873.jpg");
+    height: 362px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}      
